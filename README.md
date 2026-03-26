@@ -226,7 +226,7 @@ No `package.json`, no `node_modules`, no build output. The repo is intentionally
 - Farsi et al. (2026). Ensemble-XAI. *Scientific Reports*. https://doi.org/10.1038/s41598-026-35449-x
 
 **CPS Security & Digital Twin**
-- Mchirgui et al. (2024). Digital Twin in Smart Grids. *Applied Sciences 14*(24). https://doi.org/10.3390/app142410933
+- Mchirgui et al. (2024). The Applications and Challenges of Digital Twin Technology in Smart Grids: A Comprehensive Review. *Applied Sciences 14*(23). [https://doi.org/10.3390/app142410933](https://doi.org/10.3390/app142310933)
 - Salazar et al. (2024). Industroyer I/II analysis. *IEEE S&P 2024*. https://doi.org/10.1109/SP54263.2024.00162
 
 **Biomedical CPS**
