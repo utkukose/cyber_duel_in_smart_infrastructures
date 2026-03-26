@@ -292,4 +292,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## 🏷️ Topics
 
-`adversarial-machine-learning` `cyber-physical-systems` `smart-grid-security` `xai` `explainable-ai` `digital-twin` `iot-security` `iomt-security` `intrusion-detection` `fdi-attack` `gan-grid` `mahalanobis` `shap` `bayesian-lstm` `moving-target-defense` `simulation` `research-tool`
+`adversarial-machine-learning` `cyber-physical-systems` `smart-infrastructures` `smart-grid-security` `xai` `explainable-ai` `digital-twin` `iot-security` `iomt-security` `intrusion-detection` `fdi-attack` `gan-grid` `mahalanobis` `shap` `bayesian-lstm` `moving-target-defense` `simulation` `research-tool`
