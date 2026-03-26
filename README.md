@@ -21,8 +21,8 @@ The tool was developed as part of a research study on whether ML-based anomaly d
 No installation, no build step, no dependencies to install.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cyber-duel-cps.git
-cd cyber-duel-cps
+git clone https://github.com/YOUR_USERNAME/cyber_duel_in_smart_infrastructures.git
+cd cyber_duel_in_smart_infrastructures
 open index.html   # or just double-click it
 ```
 
@@ -200,7 +200,7 @@ Results from 49 combinations × 30 repetitions × 20 rounds = **29,400 simulatio
 ## 📁 Repository Structure
 
 ```
-cyber-duel-cps/
+cyber_duel_in_smart_infrastructures/
 │
 ├── index.html          ← Entire platform (single file, ~995 lines)
 ├── README.md           ← This file
