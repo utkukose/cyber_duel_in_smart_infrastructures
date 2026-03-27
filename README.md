@@ -12,7 +12,7 @@ This platform provides a browser-based simulation environment for studying adver
 
 The tool was developed as part of a research study on whether ML-based anomaly detection systems are robust against ML-based attacks, and whether XAI and Digital Twin methodologies can provide meaningful contributions to CPS security analysis across domains.
 
-**Key result:** Across 49 attack×defense combinations and 1,470 independent experiments, FDI-Stealthy (physics-constrained False Data Injection) was the only attack to achieve meaningful evasion (avg. ASR 3.6%), while all gradient-based attacks were fully detected. THD dominated SHAP feature attribution at 81.6% across all combinations.
+**Key result:** Across 49 attack×defense combinations and 1,470 independent experiments, FDI-Stealthy (physics-constrained False Data Injection) was the only attack to achieve meaningful evasion (avg. ASR 3.6%), while all gradient-based attacks were fully detected. For inverter-based systems, THD dominated SHAP feature attribution at 81.6% across all combinations.
 
 ---
 
@@ -49,7 +49,7 @@ The only external resource loaded at runtime is **Chart.js 4.4.1** from the Clou
 |-----------|-------|-------------|
 | Perturbation ε | 0.005 – 0.35 | Perturbation budget (lower = stealthier) |
 | Attack Method | 8 options | See attack methods table below |
-| Attack Iterations | 1 – 40 | Iteration count for iterative methods (PGD, AutoAttack) |
+| Attack Iterations | 1 – 40 | Active only for PGD and GAN-GRID; automatically disabled for single-pass methods (FGSM, JSMA, C&W, FDI-Stealthy, AutoAttack, RL-Agent) |
 
 ### Defense Side
 | Parameter | Options | Description |
@@ -59,8 +59,8 @@ The only external resource loaded at runtime is **Chart.js 4.4.1** from the Clou
 ### Physics / Experiment
 | Parameter | Range | Description |
 |-----------|-------|-------------|
-| Voltage Tolerance | ±2% – ±20% | DER voltage deviation limit |
-| Frequency Tolerance | ±0.5% – ±5% | DER frequency deviation limit |
+| Voltage Tolerance | ±2% – ±20% | DER voltage deviation limit — relabeled *Dosing Rate Tolerance* in IoMT scenario, *Pulse Amplitude Tolerance* in Pacemaker scenario |
+| Frequency Tolerance | ±0.5% – ±5% | DER frequency deviation limit — relabeled *Glucose Range Tolerance* in IoMT scenario, *Pacing Rate Tolerance* in Pacemaker scenario |
 | Number of Rounds | 4 – 24 | Rounds per experiment run |
 
 ---
@@ -122,7 +122,7 @@ The entire platform is a **single HTML file (~995 lines)** with no build toolcha
 index.html
 ├── CSS (lines 8–104)       — CSS variables, grid layouts, animations
 ├── HTML (lines 106–289)    — Tab panels, scenario strip, control cards
-└── JavaScript (lines 290–995)
+└── JavaScript (lines 290–1027)
     ├── Physics engine       — Cholesky-correlated PMU synthesis
     ├── Attack algorithms    — FGSM, PGD, C&W, GAN-GRID, AutoAttack, JSMA, FDI, RL
     ├── Defense / detection  — Mahalanobis + dynamic threshold + defense-specific logic
@@ -262,7 +262,7 @@ Full annotated bibliography with peer-reviewed status is available inside the **
 
 **Prof. Dr. Utku Kose**
 SDU, Turkey | UND, USA | VelTech, India | UP, Mexico
-utkukose@sdu.edu.tr · www.utkukose.com
+utkukose@gmail.com · utkukose@sdu.edu.tr · www.utkukose.com
 
 ---
 
