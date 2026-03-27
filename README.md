@@ -3,6 +3,7 @@
 **Simulation Platform for CPS Adversarial Security Scenarios**
 
 > *A zero-dependency, single-file interactive research platform for evaluating adversarial attack and defense dynamics across Cyber-Physical Systems — from smart energy grids to biomedical IoMT devices.*
+
 > *Also presented at Distinguished Webinar Series in Artificial Intelligence and Cyber Security (on March 27th, 2026) organized by University of North Dakota, CS2SR & AIRI - College of Engineering and Mines (CEM), Grand Forks, ND, USA.*
 
 ---
