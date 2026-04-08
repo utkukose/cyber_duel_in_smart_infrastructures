@@ -48,32 +48,32 @@ The only external resource loaded at runtime is **Chart.js 4.4.1** from the Clou
 ### 🎯 THREAT-DEFENSE — Main Simulation Arena
 *Select a real-world scenario, configure attack and defense parameters, and launch the battle. The live canvas shows attack packets in motion, the battle feed logs every round, and the strength evolution chart tracks how attacker and defender adapt over time.*
 
-![Threat-Defense Tab](screenshots/3.png)
+![Threat-Defense Tab](screenshots/1.png)
 
 *Scrolling down reveals the algorithmic insights panel — per-round explanations of why each decision was made, which feature was most salient, and what the attacker could do differently.*
 
-![Battle Feed and Algorithmic Insights](screenshots/4.png)
+![Battle Feed and Algorithmic Insights](screenshots/2.png)
 
 ---
 
 ### 🔍 XAI — Explainable AI Analysis
 *SHAP-style feature attribution bars show which sensor drove each detection decision (left). The perturbation anatomy panel shows the exact Δ shift from clean to adversarial sample per feature (right). Below: the decision boundary trace plots anomaly score vs. threshold across all rounds, and the evasion curve shows detection probability across the full ε range.*
 
-![XAI Tab](screenshots/5.png)
+![XAI Tab](screenshots/3.png)
 
 ---
 
 ### 🏗 DIGITAL TWIN — Infrastructure Topology
 *Node-level status (NORMAL / ANOMALY / BREACH) updates live each round. The physical state cards show real-time sensor readings against standard limits. The three deviation charts track voltage, frequency, and THD across all rounds with tolerance bands.*
 
-![Digital Twin Tab](screenshots/1.png)
+![Digital Twin Tab](screenshots/4.png)
 
 ---
 
 ### 📊 METRICS — Aggregated Statistics
 *L₂ perturbation norm trend (top left), Mahalanobis distance vs. dynamic threshold (top right), ε vs. anomaly score scatter (bottom left), and attacker vs. defender radar chart across five capability dimensions (bottom right).*
 
-![Metrics Tab](screenshots/2.png)
+![Metrics Tab](screenshots/5.png)
 
 ---
 
